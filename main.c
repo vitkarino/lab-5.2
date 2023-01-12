@@ -11,8 +11,8 @@ int main()
 
     double a, b, delta;
     int N;
-    char group_name[40];
-    char student_name[40];
+    char group_name[40] = {0};
+    char student_name[40] = {0};
 
     FILE *input = fopen("input.txt", "r");
 
